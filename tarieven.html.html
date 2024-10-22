@@ -1,0 +1,261 @@
+<html>
+<head>
+<title>tarieven.html</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #d5b778;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bababa;}
+.s3 { color: #6aab73;}
+.s4 { color: #7a7e85;}
+.s5 { color: #56a8f5;}
+.s6 { color: #2aacb8;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+tarieven.html</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;!DOCTYPE </span><span class="s2">html</span><span class="s0">&gt;</span>
+<span class="s0">&lt;html </span><span class="s2">lang</span><span class="s3">=&quot;en&quot;</span><span class="s0">&gt;</span>
+
+<span class="s0">&lt;head&gt;</span>
+    <span class="s0">&lt;meta </span><span class="s2">charset</span><span class="s3">=&quot;UTF-8&quot;</span><span class="s0">&gt;</span>
+    <span class="s0">&lt;meta </span><span class="s2">name</span><span class="s3">=&quot;viewport&quot; </span><span class="s2">content</span><span class="s3">=&quot;width=device-width, initial-scale=1.0&quot;</span><span class="s0">&gt;</span>
+    <span class="s0">&lt;title&gt;</span><span class="s1">Budget Taxi Den Haag - Tarieven</span><span class="s0">&lt;/title&gt;</span>
+
+    <span class="s4">&lt;!-- Google Fonts --&gt;</span>
+    <span class="s0">&lt;link </span><span class="s2">href</span><span class="s3">=&quot;https://fonts.googleapis.com/css?family=Lato:400,500|Oswald&quot; </span><span class="s2">rel</span><span class="s3">=&quot;stylesheet&quot;</span><span class="s0">&gt;</span>
+    <span class="s4">&lt;!-- Bootstrap CSS --&gt;</span>
+    <span class="s0">&lt;link </span><span class="s2">crossorigin</span><span class="s3">=&quot;anonymous&quot; </span><span class="s2">href</span><span class="s3">=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css&quot; </span><span class="s2">rel</span><span class="s3">=&quot;stylesheet&quot; </span><span class="s0">/&gt;</span>
+    <span class="s4">&lt;!-- Froala Design Blocks CSS --&gt;</span>
+    <span class="s0">&lt;link </span><span class="s2">href</span><span class="s3">=&quot;https://cdnjs.cloudflare.com/ajax/libs/froala-design-blocks/2.0.0/css/froala_blocks.min.css&quot; </span><span class="s2">rel</span><span class="s3">=&quot;stylesheet&quot; </span><span class="s2">type</span><span class="s3">=&quot;text/css&quot; </span><span class="s0">/&gt;</span>
+    <span class="s4">&lt;!-- FontAwesome --&gt;</span>
+    <span class="s0">&lt;script </span><span class="s2">src</span><span class="s3">=&quot;https://kit.fontawesome.com/e555a84553.js&quot; </span><span class="s2">crossorigin</span><span class="s3">=&quot;anonymous&quot;</span><span class="s0">&gt;&lt;/script&gt;</span>
+
+    <span class="s0">&lt;style&gt;</span>
+        <span class="s0">body </span><span class="s1">{</span>
+            <span class="s2">font-family</span><span class="s1">: </span><span class="s3">'Lato'</span><span class="s1">, </span><span class="s3">sans-serif</span><span class="s1">;</span>
+            <span class="s2">background-color</span><span class="s1">: </span><span class="s5">#f4f4f4</span><span class="s1">;</span>
+            <span class="s2">margin</span><span class="s1">: </span><span class="s6">0</span><span class="s1">;</span>
+            <span class="s2">padding</span><span class="s1">: </span><span class="s6">0</span><span class="s1">;</span>
+        <span class="s1">}</span>
+
+        <span class="s0">h1</span><span class="s1">, </span><span class="s0">h2</span><span class="s1">, </span><span class="s0">h3</span><span class="s1">, </span><span class="s0">h4 </span><span class="s1">{</span>
+            <span class="s2">font-family</span><span class="s1">: </span><span class="s3">'Oswald'</span><span class="s1">, </span><span class="s3">sans-serif</span><span class="s1">;</span>
+            <span class="s2">color</span><span class="s1">: </span><span class="s5">#006400</span><span class="s1">;</span>
+        <span class="s1">}</span>
+
+        <span class="s0">header </span><span class="s1">{</span>
+            <span class="s2">background-color</span><span class="s1">: </span><span class="s5">#fff</span><span class="s1">;</span>
+            <span class="s2">color</span><span class="s1">: </span><span class="s5">#333</span><span class="s1">;</span>
+            <span class="s2">padding</span><span class="s1">: </span><span class="s6">10</span><span class="s3">px </span><span class="s6">0</span><span class="s1">;</span>
+            <span class="s2">position</span><span class="s1">: </span><span class="s3">sticky</span><span class="s1">;</span>
+            <span class="s2">top</span><span class="s1">: </span><span class="s6">0</span><span class="s1">;</span>
+            <span class="s2">z-index</span><span class="s1">: </span><span class="s6">1000</span><span class="s1">;</span>
+            <span class="s2">box-shadow</span><span class="s1">: </span><span class="s6">0 2</span><span class="s3">px </span><span class="s6">4</span><span class="s3">px </span><span class="s0">rgba</span><span class="s1">(</span><span class="s6">0</span><span class="s1">, </span><span class="s6">0</span><span class="s1">, </span><span class="s6">0</span><span class="s1">, </span><span class="s6">0.1</span><span class="s1">);</span>
+        <span class="s1">}</span>
+
+        <span class="s1">.</span><span class="s0">top-bar </span><span class="s1">.</span><span class="s0">container </span><span class="s1">{</span>
+            <span class="s2">display</span><span class="s1">: </span><span class="s3">flex</span><span class="s1">;</span>
+            <span class="s2">justify-content</span><span class="s1">: </span><span class="s3">space-between</span><span class="s1">;</span>
+            <span class="s2">align-items</span><span class="s1">: </span><span class="s3">center</span><span class="s1">;</span>
+        <span class="s1">}</span>
+
+        <span class="s1">.</span><span class="s0">top-bar a </span><span class="s1">{</span>
+            <span class="s2">color</span><span class="s1">: </span><span class="s5">#333</span><span class="s1">;</span>
+            <span class="s2">margin-left</span><span class="s1">: </span><span class="s6">20</span><span class="s3">px</span><span class="s1">;</span>
+        <span class="s1">}</span>
+
+        <span class="s1">.</span><span class="s0">social-icons a </span><span class="s1">{</span>
+            <span class="s2">color</span><span class="s1">: </span><span class="s5">#333</span><span class="s1">;</span>
+            <span class="s2">margin-right</span><span class="s1">: </span><span class="s6">15</span><span class="s3">px</span><span class="s1">;</span>
+        <span class="s1">}</span>
+
+        <span class="s0">nav a </span><span class="s1">{</span>
+            <span class="s2">color</span><span class="s1">: </span><span class="s5">#333</span><span class="s1">;</span>
+            <span class="s2">margin-right</span><span class="s1">: </span><span class="s6">15</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">font-weight</span><span class="s1">: </span><span class="s6">500</span><span class="s1">;</span>
+        <span class="s1">}</span>
+
+        <span class="s1">.</span><span class="s0">cta-call button </span><span class="s1">{</span>
+            <span class="s2">background-color</span><span class="s1">: </span><span class="s5">#006400</span><span class="s1">;</span>
+            <span class="s2">border</span><span class="s1">: </span><span class="s3">none</span><span class="s1">;</span>
+            <span class="s2">padding</span><span class="s1">: </span><span class="s6">10</span><span class="s3">px </span><span class="s6">20</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">color</span><span class="s1">: </span><span class="s3">white</span><span class="s1">;</span>
+            <span class="s2">border-radius</span><span class="s1">: </span><span class="s6">4</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">font-weight</span><span class="s1">: </span><span class="s6">600</span><span class="s1">;</span>
+        <span class="s1">}</span>
+
+        <span class="s1">.</span><span class="s0">tarieven </span><span class="s1">{</span>
+            <span class="s2">padding</span><span class="s1">: </span><span class="s6">60</span><span class="s3">px </span><span class="s6">0</span><span class="s1">;</span>
+            <span class="s2">background-color</span><span class="s1">: </span><span class="s5">#f4f4f4</span><span class="s1">;</span>
+        <span class="s1">}</span>
+
+        <span class="s1">.</span><span class="s0">tarieven h1 </span><span class="s1">{</span>
+            <span class="s2">text-align</span><span class="s1">: </span><span class="s3">center</span><span class="s1">;</span>
+            <span class="s2">margin-bottom</span><span class="s1">: </span><span class="s6">30</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">text-shadow</span><span class="s1">: </span><span class="s6">2</span><span class="s3">px </span><span class="s6">2</span><span class="s3">px </span><span class="s5">#333</span><span class="s1">;</span>
+        <span class="s1">}</span>
+
+        <span class="s1">.</span><span class="s0">price-box </span><span class="s1">{</span>
+            <span class="s2">background</span><span class="s1">: </span><span class="s0">rgba</span><span class="s1">(</span><span class="s6">255</span><span class="s1">, </span><span class="s6">255</span><span class="s1">, </span><span class="s6">255</span><span class="s1">, </span><span class="s6">0.9</span><span class="s1">);</span>
+            <span class="s2">padding</span><span class="s1">: </span><span class="s6">40</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">border-radius</span><span class="s1">: </span><span class="s6">20</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">box-shadow</span><span class="s1">: </span><span class="s6">0 6</span><span class="s3">px </span><span class="s6">25</span><span class="s3">px </span><span class="s0">rgba</span><span class="s1">(</span><span class="s6">0</span><span class="s1">, </span><span class="s6">0</span><span class="s1">, </span><span class="s6">0</span><span class="s1">, </span><span class="s6">0.3</span><span class="s1">);</span>
+            <span class="s2">margin-bottom</span><span class="s1">: </span><span class="s6">30</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">text-align</span><span class="s1">: </span><span class="s3">center</span><span class="s1">;</span>
+            <span class="s2">transition</span><span class="s1">: </span><span class="s0">transform </span><span class="s6">0.3</span><span class="s3">s ease</span><span class="s1">, </span><span class="s0">box-shadow </span><span class="s6">0.3</span><span class="s3">s ease</span><span class="s1">;</span>
+        <span class="s1">}</span>
+
+        <span class="s1">.</span><span class="s0">price-box</span><span class="s1">:</span><span class="s0">hover </span><span class="s1">{</span>
+            <span class="s2">transform</span><span class="s1">: </span><span class="s0">scale</span><span class="s1">(</span><span class="s6">1.1</span><span class="s1">);</span>
+            <span class="s2">box-shadow</span><span class="s1">: </span><span class="s6">0 8</span><span class="s3">px </span><span class="s6">30</span><span class="s3">px </span><span class="s0">rgba</span><span class="s1">(</span><span class="s6">0</span><span class="s1">, </span><span class="s6">0</span><span class="s1">, </span><span class="s6">0</span><span class="s1">, </span><span class="s6">0.4</span><span class="s1">);</span>
+        <span class="s1">}</span>
+
+        <span class="s1">.</span><span class="s0">price-box h2 </span><span class="s1">{</span>
+            <span class="s2">color</span><span class="s1">: </span><span class="s5">#FFC300</span><span class="s1">;</span>
+            <span class="s2">font-size</span><span class="s1">: </span><span class="s6">2</span><span class="s3">em</span><span class="s1">;</span>
+            <span class="s2">margin-bottom</span><span class="s1">: </span><span class="s6">15</span><span class="s3">px</span><span class="s1">;</span>
+        <span class="s1">}</span>
+
+        <span class="s1">.</span><span class="s0">price-box p </span><span class="s1">{</span>
+            <span class="s2">font-size</span><span class="s1">: </span><span class="s6">1.4</span><span class="s3">em</span><span class="s1">;</span>
+            <span class="s2">color</span><span class="s1">: </span><span class="s5">#333</span><span class="s1">;</span>
+            <span class="s2">margin-bottom</span><span class="s1">: </span><span class="s6">20</span><span class="s3">px</span><span class="s1">;</span>
+        <span class="s1">}</span>
+
+        <span class="s1">.</span><span class="s0">btn-primary </span><span class="s1">{</span>
+            <span class="s2">background-color</span><span class="s1">: </span><span class="s5">#006400</span><span class="s1">;</span>
+            <span class="s2">border-color</span><span class="s1">: </span><span class="s5">#006400</span><span class="s1">;</span>
+            <span class="s2">padding</span><span class="s1">: </span><span class="s6">12</span><span class="s3">px </span><span class="s6">25</span><span class="s3">px</span><span class="s1">;</span>
+            <span class="s2">font-size</span><span class="s1">: </span><span class="s6">1.2</span><span class="s3">em</span><span class="s1">;</span>
+            <span class="s2">transition</span><span class="s1">: </span><span class="s3">background-color </span><span class="s6">0.3</span><span class="s3">s ease</span><span class="s1">, </span><span class="s0">transform </span><span class="s6">0.3</span><span class="s3">s ease</span><span class="s1">;</span>
+            <span class="s2">border-radius</span><span class="s1">: </span><span class="s6">50</span><span class="s3">px</span><span class="s1">;</span>
+        <span class="s1">}</span>
+
+        <span class="s1">.</span><span class="s0">btn-primary</span><span class="s1">:</span><span class="s0">hover </span><span class="s1">{</span>
+            <span class="s2">background-color</span><span class="s1">: </span><span class="s5">#006400</span><span class="s1">;</span>
+            <span class="s2">transform</span><span class="s1">: </span><span class="s0">scale</span><span class="s1">(</span><span class="s6">1.05</span><span class="s1">);</span>
+        <span class="s1">}</span>
+
+        <span class="s0">footer </span><span class="s1">{</span>
+            <span class="s2">background-color</span><span class="s1">: </span><span class="s5">#333</span><span class="s1">;</span>
+            <span class="s2">color</span><span class="s1">: </span><span class="s3">white</span><span class="s1">;</span>
+            <span class="s2">padding</span><span class="s1">: </span><span class="s6">40</span><span class="s3">px </span><span class="s6">0</span><span class="s1">;</span>
+        <span class="s1">}</span>
+
+        <span class="s0">footer a </span><span class="s1">{</span>
+            <span class="s2">color</span><span class="s1">: </span><span class="s3">white</span><span class="s1">;</span>
+        <span class="s1">}</span>
+
+        <span class="s0">footer h3 </span><span class="s1">{</span>
+            <span class="s2">font-family</span><span class="s1">: </span><span class="s3">'Oswald'</span><span class="s1">, </span><span class="s3">sans-serif</span><span class="s1">;</span>
+        <span class="s1">}</span>
+    <span class="s0">&lt;/style&gt;</span>
+<span class="s0">&lt;/head&gt;</span>
+
+<span class="s0">&lt;body&gt;</span>
+
+<span class="s4">&lt;!-- Sticky Header --&gt;</span>
+<span class="s0">&lt;header&gt;</span>
+    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;top-bar&quot;</span><span class="s0">&gt;</span>
+        <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;container&quot;</span><span class="s0">&gt;</span>
+            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col-3 col-md-2&quot;</span><span class="s0">&gt;</span><span class="s1">Budget Taxi Den Haag</span><span class="s0">&lt;/div&gt;</span>
+            <span class="s0">&lt;div&gt;</span>
+                <span class="s0">&lt;span&gt;&lt;a </span><span class="s2">class</span><span class="s3">=&quot;phone-number&quot; </span><span class="s2">href</span><span class="s3">=&quot;tel:+31701234567&quot;</span><span class="s0">&gt;&lt;i </span><span class="s2">class</span><span class="s3">=&quot;fas fa-phone fa-rotate-90&quot;</span><span class="s0">&gt;&lt;/i&gt; </span><span class="s1">0701234567</span><span class="s0">&lt;/a&gt;&lt;/span&gt;</span>
+                <span class="s0">&lt;span&gt;&lt;a </span><span class="s2">class</span><span class="s3">=&quot;email&quot; </span><span class="s2">href</span><span class="s3">=&quot;mailto:info@budgettaxi-denhaag.nl&quot;</span><span class="s0">&gt;&lt;i </span><span class="s2">class</span><span class="s3">=&quot;fas fa-envelope&quot;</span><span class="s0">&gt;&lt;/i&gt; </span><span class="s1">info@budgettaxi-denhaag.nl</span><span class="s0">&lt;/a&gt;&lt;/span&gt;</span>
+            <span class="s0">&lt;/div&gt;</span>
+            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;social-icons&quot;</span><span class="s0">&gt;</span>
+                <span class="s0">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;https://facebook.com/budgettaxidenhaag&quot; </span><span class="s2">target</span><span class="s3">=&quot;_blank&quot; </span><span class="s2">title</span><span class="s3">=&quot;Facebook&quot;</span><span class="s0">&gt;&lt;i </span><span class="s2">class</span><span class="s3">=&quot;fab fa-facebook&quot;</span><span class="s0">&gt;&lt;/i&gt;&lt;/a&gt;</span>
+                <span class="s0">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;https://instagram.com/budgettaxidenhaag&quot; </span><span class="s2">target</span><span class="s3">=&quot;_blank&quot; </span><span class="s2">title</span><span class="s3">=&quot;Instagram&quot;</span><span class="s0">&gt;&lt;i </span><span class="s2">class</span><span class="s3">=&quot;fab fa-instagram&quot;</span><span class="s0">&gt;&lt;/i&gt;&lt;/a&gt;</span>
+                <span class="s0">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;https://twitter.com/budgettaxidenhaag&quot; </span><span class="s2">target</span><span class="s3">=&quot;_blank&quot; </span><span class="s2">title</span><span class="s3">=&quot;Twitter&quot;</span><span class="s0">&gt;&lt;i </span><span class="s2">class</span><span class="s3">=&quot;fab fa-twitter&quot;</span><span class="s0">&gt;&lt;/i&gt;&lt;/a&gt;</span>
+            <span class="s0">&lt;/div&gt;</span>
+        <span class="s0">&lt;/div&gt;</span>
+    <span class="s0">&lt;/div&gt;</span>
+
+    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;container&quot;</span><span class="s0">&gt;</span>
+        <span class="s0">&lt;nav </span><span class="s2">class</span><span class="s3">=&quot;navbar navbar-expand-md&quot;</span><span class="s0">&gt;</span>
+            <span class="s0">&lt;a </span><span class="s2">class</span><span class="s3">=&quot;navbar-brand&quot; </span><span class="s2">href</span><span class="s3">=&quot;index.html&quot;</span><span class="s0">&gt;&lt;img </span><span class="s2">alt</span><span class="s3">=&quot;Budget Taxi Den Haag&quot; </span><span class="s2">src</span><span class="s3">=&quot;https://imgur.com/xinfJAB.png&quot; </span><span class="s2">width</span><span class="s3">=&quot;300px&quot; </span><span class="s2">height</span><span class="s3">=&quot;150px&quot;</span><span class="s0">/&gt;&lt;/a&gt;</span>
+            <span class="s0">&lt;button </span><span class="s2">class</span><span class="s3">=&quot;navbar-toggler&quot; </span><span class="s2">type</span><span class="s3">=&quot;button&quot; </span><span class="s2">data-toggle</span><span class="s3">=&quot;collapse&quot; </span><span class="s2">data-target</span><span class="s3">=&quot;#navbarNav1&quot; </span><span class="s2">aria-controls</span><span class="s3">=&quot;navbarNav1&quot; </span><span class="s2">aria-expanded</span><span class="s3">=&quot;false&quot; </span><span class="s2">aria-label</span><span class="s3">=&quot;Toggle navigation&quot;</span><span class="s0">&gt;</span>
+                <span class="s0">&lt;span </span><span class="s2">class</span><span class="s3">=&quot;navbar-toggler-icon&quot;</span><span class="s0">&gt;&lt;/span&gt;</span>
+            <span class="s0">&lt;/button&gt;</span>
+            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;collapse navbar-collapse&quot; </span><span class="s2">id</span><span class="s3">=&quot;navbarNav1&quot;</span><span class="s0">&gt;</span>
+                <span class="s0">&lt;ul </span><span class="s2">class</span><span class="s3">=&quot;navbar-nav mr-auto&quot;</span><span class="s0">&gt;</span>
+                    <span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;nav-item&quot;</span><span class="s0">&gt;&lt;a </span><span class="s2">class</span><span class="s3">=&quot;nav-link&quot; </span><span class="s2">href</span><span class="s3">=&quot;index.html&quot;</span><span class="s0">&gt;</span><span class="s1">Home</span><span class="s0">&lt;/a&gt;&lt;/li&gt;</span>
+                    <span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;nav-item&quot;</span><span class="s0">&gt;&lt;a </span><span class="s2">class</span><span class="s3">=&quot;nav-link&quot; </span><span class="s2">href</span><span class="s3">=&quot;tarieven.html&quot;</span><span class="s0">&gt;</span><span class="s1">Tarieven</span><span class="s0">&lt;/a&gt;&lt;/li&gt;</span>
+                    <span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;nav-item&quot;</span><span class="s0">&gt;&lt;a </span><span class="s2">class</span><span class="s3">=&quot;nav-link&quot; </span><span class="s2">href</span><span class="s3">=&quot;contact.html&quot;</span><span class="s0">&gt;</span><span class="s1">Contact</span><span class="s0">&lt;/a&gt;&lt;/li&gt;</span>
+                <span class="s0">&lt;/ul&gt;</span>
+                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;cta-call&quot;</span><span class="s0">&gt;</span>
+                    <span class="s0">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;tel:+31701234567&quot;</span><span class="s0">&gt;&lt;button </span><span class="s2">class</span><span class="s3">=&quot;btn btn-primary&quot;</span><span class="s0">&gt;</span><span class="s1">Bel Nu</span><span class="s0">&lt;/button&gt;&lt;/a&gt;</span>
+                <span class="s0">&lt;/div&gt;</span>
+            <span class="s0">&lt;/div&gt;</span>
+        <span class="s0">&lt;/nav&gt;</span>
+    <span class="s0">&lt;/div&gt;</span>
+<span class="s0">&lt;/header&gt;</span>
+
+<span class="s4">&lt;!-- Tarieven Section --&gt;</span>
+<span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;tarieven&quot;</span><span class="s0">&gt;</span>
+    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;container&quot;</span><span class="s0">&gt;</span>
+        <span class="s0">&lt;h1&gt;</span><span class="s1">Tarieven</span><span class="s0">&lt;/h1&gt;</span>
+        <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;row&quot;</span><span class="s0">&gt;</span>
+            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col-md-4&quot;</span><span class="s0">&gt;</span>
+                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;price-box&quot;</span><span class="s0">&gt;</span>
+                    <span class="s0">&lt;h2&gt;</span><span class="s1">Rotterdam / The Hague Airport</span><span class="s0">&lt;/h2&gt;</span>
+                    <span class="s0">&lt;p&gt;</span><span class="s1">Prijs: €50 (Tot 4 personen)</span><span class="s0">&lt;/p&gt;</span>
+                    <span class="s0">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;tel:+31701234567&quot; </span><span class="s2">class</span><span class="s3">=&quot;btn btn-primary&quot;</span><span class="s0">&gt;</span><span class="s1">Bel Nu</span><span class="s0">&lt;/a&gt;</span>
+                <span class="s0">&lt;/div&gt;</span>
+            <span class="s0">&lt;/div&gt;</span>
+            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col-md-4&quot;</span><span class="s0">&gt;</span>
+                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;price-box&quot;</span><span class="s0">&gt;</span>
+                    <span class="s0">&lt;h2&gt;</span><span class="s1">Schiphol Taxi (Brengen)</span><span class="s0">&lt;/h2&gt;</span>
+                    <span class="s0">&lt;p&gt;</span><span class="s1">Prijs: €80 (Tot 4 personen)</span><span class="s0">&lt;/p&gt;</span>
+                    <span class="s0">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;tel:+31701234567&quot; </span><span class="s2">class</span><span class="s3">=&quot;btn btn-primary&quot;</span><span class="s0">&gt;</span><span class="s1">Bel Nu</span><span class="s0">&lt;/a&gt;</span>
+                <span class="s0">&lt;/div&gt;</span>
+            <span class="s0">&lt;/div&gt;</span>
+            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col-md-4&quot;</span><span class="s0">&gt;</span>
+                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;price-box&quot;</span><span class="s0">&gt;</span>
+                    <span class="s0">&lt;h2&gt;</span><span class="s1">Schiphol Taxi (Ophalen)</span><span class="s0">&lt;/h2&gt;</span>
+                    <span class="s0">&lt;p&gt;</span><span class="s1">Prijs: €85 (Tot 4 personen)</span><span class="s0">&lt;/p&gt;</span>
+                    <span class="s0">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;tel:+31701234567&quot; </span><span class="s2">class</span><span class="s3">=&quot;btn btn-primary&quot;</span><span class="s0">&gt;</span><span class="s1">Bel Nu</span><span class="s0">&lt;/a&gt;</span>
+                <span class="s0">&lt;/div&gt;</span>
+            <span class="s0">&lt;/div&gt;</span>
+        <span class="s0">&lt;/div&gt;</span>
+    <span class="s0">&lt;/div&gt;</span>
+<span class="s0">&lt;/div&gt;</span>
+
+<span class="s4">&lt;!-- Footer --&gt;</span>
+<span class="s0">&lt;footer&gt;</span>
+    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;container&quot;</span><span class="s0">&gt;</span>
+        <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;row&quot;</span><span class="s0">&gt;</span>
+            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col-12 col-sm-6&quot;</span><span class="s0">&gt;</span>
+                <span class="s0">&lt;p&gt;&lt;a </span><span class="s2">href</span><span class="s3">=&quot;tel:+31701234567&quot;</span><span class="s0">&gt;</span><span class="s1">0701234567</span><span class="s0">&lt;/a&gt;&lt;/p&gt;</span>
+                <span class="s0">&lt;p&gt;&lt;a </span><span class="s2">href</span><span class="s3">=&quot;mailto:info@budgettaxi-denhaag.nl&quot;</span><span class="s0">&gt;</span><span class="s1">info@budgettaxi-denhaag.nl</span><span class="s0">&lt;/a&gt;&lt;/p&gt;</span>
+            <span class="s0">&lt;/div&gt;</span>
+            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col-12 col-sm-6&quot;</span><span class="s0">&gt;</span>
+                <span class="s0">&lt;h3&gt;</span><span class="s1">Menu</span><span class="s0">&lt;/h3&gt;</span>
+                <span class="s0">&lt;p&gt;&lt;a </span><span class="s2">href</span><span class="s3">=&quot;index.html&quot;</span><span class="s0">&gt;</span><span class="s1">Home</span><span class="s0">&lt;/a&gt;&lt;/p&gt;</span>
+                <span class="s0">&lt;p&gt;&lt;a </span><span class="s2">href</span><span class="s3">=&quot;tarieven.html&quot;</span><span class="s0">&gt;</span><span class="s1">Tarieven</span><span class="s0">&lt;/a&gt;&lt;/p&gt;</span>
+                <span class="s0">&lt;p&gt;&lt;a </span><span class="s2">href</span><span class="s3">=&quot;contact.html&quot;</span><span class="s0">&gt;</span><span class="s1">Contact</span><span class="s0">&lt;/a&gt;&lt;/p&gt;</span>
+            <span class="s0">&lt;/div&gt;</span>
+        <span class="s0">&lt;/div&gt;</span>
+        <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;row&quot;</span><span class="s0">&gt;</span>
+            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col text-center mt-4&quot;</span><span class="s0">&gt;</span>
+                <span class="s0">&lt;p&gt;</span><span class="s5">&amp;copy; </span><span class="s1">2024 Budget Taxi Den Haag - Made by </span><span class="s0">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;https://gainimpact.nl&quot; </span><span class="s2">target</span><span class="s3">=&quot;_blank&quot;</span><span class="s0">&gt;</span><span class="s1">Gainimpact</span><span class="s0">&lt;/a&gt;&lt;/p&gt;</span>
+            <span class="s0">&lt;/div&gt;</span>
+        <span class="s0">&lt;/div&gt;</span>
+    <span class="s0">&lt;/div&gt;</span>
+<span class="s0">&lt;/footer&gt;</span>
+
+<span class="s4">&lt;!-- Bootstrap and JS dependencies --&gt;</span>
+<span class="s0">&lt;script </span><span class="s2">src</span><span class="s3">=&quot;https://code.jquery.com/jquery-3.2.1.slim.min.js&quot;</span><span class="s0">&gt;&lt;/script&gt;</span>
+<span class="s0">&lt;script </span><span class="s2">src</span><span class="s3">=&quot;https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js&quot;</span><span class="s0">&gt;&lt;/script&gt;</span>
+<span class="s0">&lt;script </span><span class="s2">src</span><span class="s3">=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js&quot;</span><span class="s0">&gt;&lt;/script&gt;</span>
+<span class="s0">&lt;/body&gt;</span>
+
+<span class="s0">&lt;/html&gt;</span>
+</pre>
+</body>
+</html>
