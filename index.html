@@ -1,162 +1,136 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<title>index.html</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<style type="text/css">
-.s0 { color: #d5b778;}
-.s1 { color: #bcbec4;}
-.s2 { color: #bababa;}
-.s3 { color: #6aab73;}
-.s4 { color: #7a7e85;}
-.s5 { color: #56a8f5;}
-.s6 { color: #cf8e6d; font-weight: bold;}
-.s7 { color: #2aacb8;}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Taxi Den Haag</title>
+
+    <!-- Bootstrap CSS -->
+    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Froala Design Blocks CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/froala-design-blocks/2.0.0/css/froala_blocks.min.css" rel="stylesheet" type="text/css" />
+    <style>
+        h1 {
+            color: #ff6600;
+        }
+
+        p.lead {
+            color: #808000 !important;
+        }
+
+        h2 {
+            color: #C0C0C0;
+        }
+
+        .container+.container {
+            margin-top: 150px;
+        }
+    </style>
 </head>
+
 <body bgcolor="#1e1f22">
-<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
-<tr><td><center>
-<font face="Arial, Helvetica" color="#000000">
-index.html</font>
-</center></td></tr></table>
-<pre><span class="s0">&lt;!DOCTYPE </span><span class="s2">html</span><span class="s0">&gt;</span>
-<span class="s0">&lt;html </span><span class="s2">lang</span><span class="s3">=&quot;en&quot;</span><span class="s0">&gt;</span>
 
-<span class="s0">&lt;head&gt;</span>
-    <span class="s0">&lt;meta </span><span class="s2">charset</span><span class="s3">=&quot;UTF-8&quot;</span><span class="s0">&gt;</span>
-    <span class="s0">&lt;meta </span><span class="s2">name</span><span class="s3">=&quot;viewport&quot; </span><span class="s2">content</span><span class="s3">=&quot;width=device-width, initial-scale=1.0&quot;</span><span class="s0">&gt;</span>
-    <span class="s0">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;index.html&quot;</span><span class="s0">&gt;</span>
-        <span class="s0">&lt;img </span><span class="s2">src</span><span class="s3">=&quot;https://imgur.com/xinfJAB.png&quot; </span><span class="s2">alt</span><span class="s3">=&quot;Budget Taxi Den Haag Logo&quot; </span><span class="s2">width</span><span class="s3">=&quot;300px&quot; </span><span class="s2">height</span><span class="s3">=&quot;150px&quot;</span><span class="s0">&gt;</span>
-    <span class="s0">&lt;/a&gt;</span>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="https://imgur.com/xinfJAB.png" alt="Budget Taxi Den Haag Logo" width="300px" height="150px">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="tarieven.html">Tarieven</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-    <span class="s0">&lt;title&gt;</span><span class="s1">Budget Taxi Den Haag</span><span class="s0">&lt;/title&gt;</span>
+    <!-- Hero Section -->
+    <section class="fdb-block hero-large" style="background-image: url('https://i.imgur.com/Dh3bZmH.jpeg'); background-size: 100% auto; background-position: center; background-repeat: no-repeat;">
 
-    <span class="s4">&lt;!-- Bootstrap CSS --&gt;</span>
-    <span class="s0">&lt;link </span><span class="s2">crossorigin</span><span class="s3">=&quot;anonymous&quot; </span><span class="s2">href</span><span class="s3">=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css&quot; </span><span class="s2">rel</span><span class="s3">=&quot;stylesheet&quot; </span><span class="s0">/&gt;</span>
-    <span class="s4">&lt;!-- Froala Design Blocks CSS --&gt;</span>
-    <span class="s0">&lt;link </span><span class="s2">href</span><span class="s3">=&quot;https://cdnjs.cloudflare.com/ajax/libs/froala-design-blocks/2.0.0/css/froala_blocks.min.css&quot; </span><span class="s2">rel</span><span class="s3">=&quot;stylesheet&quot; </span><span class="s2">type</span><span class="s3">=&quot;text/css&quot; </span><span class="s0">/&gt;</span>
-    <span class="s0">&lt;style&gt;</span>
-        <span class="s0">h1 </span><span class="s1">{</span>
-            <span class="s2">color</span><span class="s1">: </span><span class="s5">#ff6600</span><span class="s1">; </span><span class="s4">/* Change the heading color */</span>
-        <span class="s1">}</span>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-8 text-center">
+                    <h1 style="color: #FFFF00;">Welcome to Budget Taxi Den Haag</h1>
+                    <p class="lead" style="color: #7CFC00;">Reliable and affordable taxi services in The Hague. Book your ride now!</p>
+                    <p class="mt-4"><a href="#" class="btn btn-primary btn-lg">Book Now</a></p>
+                </div>
+            </div>
+        </div>
 
-        <span class="s0">p</span><span class="s1">.</span><span class="s0">lead </span><span class="s1">{</span>
-            <span class="s2">color</span><span class="s1">: </span><span class="s5">#808000 </span><span class="s6">!important</span><span class="s1">; </span><span class="s4">/* Change the color of the paragraph with the 'lead' class */</span>
-        <span class="s1">}</span>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    <h2>Our Services</h2>
+                </div>
+            </div>
 
-        <span class="s0">h2 </span><span class="s1">{</span>
-            <span class="s2">color</span><span class="s1">: </span><span class="s5">#C0C0C0</span><span class="s1">;</span>
-        <span class="s1">}</span>
+            <div class="row mt-5 text-center">
+                <div class="col-md-4">
+                    <div class="fdb-box p-4">
+                        <h3>City Taxi</h3>
+                        <p>Quick and affordable taxi services around the city.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="fdb-box p-4">
+                        <h3>Airport Transfer</h3>
+                        <p>Reliable transfers to and from airports at any time.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="fdb-box p-4">
+                        <h3>24/7 Availability</h3>
+                        <p>We are available around the clock for your convenience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <span class="s1">.</span><span class="s0">container </span><span class="s1">+ .</span><span class="s0">container </span><span class="s1">{</span>
-            <span class="s2">margin-top</span><span class="s1">: </span><span class="s7">150</span><span class="s3">px</span><span class="s1">; </span><span class="s4">/* Adjust this value as needed */</span>
-        <span class="s1">}</span>
-    <span class="s0">&lt;/style&gt;</span>
-<span class="s0">&lt;/head&gt;</span>
+    <!-- Footer Section -->
+    <footer class="fdb-block footer-small bg-dark text-light">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tarieven.html">Tarieven</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row text-center mt-4">
+                <div class="col">
+                    <p>© 2024 Budget Taxi Den Haag. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-<span class="s0">&lt;body&gt;</span>
-
-<span class="s4">&lt;!-- Navigation Bar --&gt;</span>
-<span class="s0">&lt;header&gt;</span>
-    <span class="s0">&lt;nav </span><span class="s2">class</span><span class="s3">=&quot;navbar navbar-expand-lg navbar-light bg-white&quot;</span><span class="s0">&gt;</span>
-        <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;container&quot;</span><span class="s0">&gt;</span>
-            <span class="s0">&lt;a </span><span class="s2">class</span><span class="s3">=&quot;navbar-brand&quot; </span><span class="s2">href</span><span class="s3">=&quot;index.html&quot;</span><span class="s0">&gt;</span><span class="s1">Budget Taxi Den Haag</span><span class="s0">&lt;/a&gt;</span>
-            <span class="s0">&lt;button </span><span class="s2">class</span><span class="s3">=&quot;navbar-toggler&quot; </span><span class="s2">type</span><span class="s3">=&quot;button&quot; </span><span class="s2">data-toggle</span><span class="s3">=&quot;collapse&quot; </span><span class="s2">data-target</span><span class="s3">=&quot;#navbarNav&quot; </span><span class="s2">aria-controls</span><span class="s3">=&quot;navbarNav&quot; </span><span class="s2">aria-expanded</span><span class="s3">=&quot;false&quot; </span><span class="s2">aria-label</span><span class="s3">=&quot;Toggle navigation&quot;</span><span class="s0">&gt;</span>
-                <span class="s0">&lt;span </span><span class="s2">class</span><span class="s3">=&quot;navbar-toggler-icon&quot;</span><span class="s0">&gt;&lt;/span&gt;</span>
-            <span class="s0">&lt;/button&gt;</span>
-            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;collapse navbar-collapse&quot; </span><span class="s2">id</span><span class="s3">=&quot;navbarNav&quot;</span><span class="s0">&gt;</span>
-                <span class="s0">&lt;ul </span><span class="s2">class</span><span class="s3">=&quot;navbar-nav ml-auto&quot;</span><span class="s0">&gt;</span>
-                    <span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;nav-item&quot;</span><span class="s0">&gt;</span>
-                        <span class="s0">&lt;a </span><span class="s2">class</span><span class="s3">=&quot;nav-link active&quot; </span><span class="s2">href</span><span class="s3">=&quot;index.html&quot;</span><span class="s0">&gt;</span><span class="s1">Home</span><span class="s0">&lt;/a&gt;</span>
-                    <span class="s0">&lt;/li&gt;</span>
-                    <span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;nav-item&quot;</span><span class="s0">&gt;</span>
-                        <span class="s0">&lt;a </span><span class="s2">class</span><span class="s3">=&quot;nav-link active&quot; </span><span class="s2">href</span><span class="s3">=&quot;tarieven.html&quot;</span><span class="s0">&gt;</span><span class="s1">Tarieven</span><span class="s0">&lt;/a&gt;</span>
-                    <span class="s0">&lt;/li&gt;</span>
-                    <span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;nav-item&quot;</span><span class="s0">&gt;</span>
-                        <span class="s0">&lt;a </span><span class="s2">class</span><span class="s3">=&quot;nav-link active&quot; </span><span class="s2">href</span><span class="s3">=&quot;contact.html&quot;</span><span class="s0">&gt;</span><span class="s1">Contact</span><span class="s0">&lt;/a&gt;</span>
-                    <span class="s0">&lt;/li&gt;</span>
-                <span class="s0">&lt;/ul&gt;</span>
-            <span class="s0">&lt;/div&gt;</span>
-        <span class="s0">&lt;/div&gt;</span>
-    <span class="s0">&lt;/nav&gt;</span>
-<span class="s0">&lt;/header&gt;</span>
-
-<span class="s4">&lt;!-- Hero Section --&gt;</span>
-<span class="s0">&lt;section </span><span class="s2">class</span><span class="s3">=&quot;fdb-block hero-large&quot; </span><span class="s2">style</span><span class="s3">=&quot;</span><span class="s2">background-image</span><span class="s1">: </span><span class="s0">url</span><span class="s1">(</span><span class="s3">'https://i.imgur.com/Dh3bZmH.jpeg'</span><span class="s1">); </span><span class="s2">background-size</span><span class="s1">: </span><span class="s7">100</span><span class="s1">% </span><span class="s3">auto</span><span class="s1">; </span><span class="s2">background-position</span><span class="s1">: </span><span class="s3">center</span><span class="s1">; </span><span class="s2">background-repeat</span><span class="s1">: </span><span class="s3">no-repeat</span><span class="s1">;</span><span class="s3">&quot;</span><span class="s0">&gt;</span>
-
-    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;container&quot;</span><span class="s0">&gt;</span>
-        <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;row justify-content-center&quot;</span><span class="s0">&gt;</span>
-            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col-12 col-md-10 col-lg-8 text-center&quot;</span><span class="s0">&gt;</span>
-                <span class="s0">&lt;h1 </span><span class="s2">style</span><span class="s3">=&quot;</span><span class="s2">color</span><span class="s1">: </span><span class="s5">#FFFF00</span><span class="s1">;</span><span class="s3">&quot;</span><span class="s0">&gt;</span><span class="s1">Welcome to Budget Taxi Den Haag</span><span class="s0">&lt;/h1&gt;</span>
-                <span class="s0">&lt;p </span><span class="s2">class</span><span class="s3">=&quot;lead&quot; </span><span class="s2">style</span><span class="s3">=&quot;</span><span class="s2">color</span><span class="s1">: </span><span class="s5">#7CFC00</span><span class="s1">;</span><span class="s3">&quot;</span><span class="s0">&gt;</span><span class="s1">Reliable and affordable taxi services in The Hague. Book your ride now!</span><span class="s0">&lt;/p&gt;</span>
-                <span class="s0">&lt;p </span><span class="s2">class</span><span class="s3">=&quot;mt-4&quot;</span><span class="s0">&gt;&lt;a </span><span class="s2">href</span><span class="s3">=&quot;#&quot; </span><span class="s2">class</span><span class="s3">=&quot;btn btn-primary btn-lg&quot;</span><span class="s0">&gt;</span><span class="s1">Book Now</span><span class="s0">&lt;/a&gt;&lt;/p&gt;</span>
-            <span class="s0">&lt;/div&gt;</span>
-        <span class="s0">&lt;/div&gt;</span>
-    <span class="s0">&lt;/div&gt;</span>
-
-    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;container&quot;</span><span class="s0">&gt;</span>
-        <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;row text-center&quot;</span><span class="s0">&gt;</span>
-            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col&quot;</span><span class="s0">&gt;</span>
-                <span class="s0">&lt;h2&gt;</span><span class="s1">Our Services</span><span class="s0">&lt;/h2&gt;</span>
-            <span class="s0">&lt;/div&gt;</span>
-        <span class="s0">&lt;/div&gt;</span>
-
-        <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;row mt-5 text-center&quot;</span><span class="s0">&gt;</span>
-            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col-md-4&quot;</span><span class="s0">&gt;</span>
-                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;fdb-box p-4&quot;</span><span class="s0">&gt;</span>
-                    <span class="s0">&lt;h3&gt;</span><span class="s1">City Taxi</span><span class="s0">&lt;/h3&gt;</span>
-                    <span class="s0">&lt;p&gt;</span><span class="s1">Quick and affordable taxi services around the city.</span><span class="s0">&lt;/p&gt;</span>
-                <span class="s0">&lt;/div&gt;</span>
-            <span class="s0">&lt;/div&gt;</span>
-            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col-md-4&quot;</span><span class="s0">&gt;</span>
-                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;fdb-box p-4&quot;</span><span class="s0">&gt;</span>
-                    <span class="s0">&lt;h3&gt;</span><span class="s1">Airport Transfer</span><span class="s0">&lt;/h3&gt;</span>
-                    <span class="s0">&lt;p&gt;</span><span class="s1">Reliable transfers to and from airports at any time.</span><span class="s0">&lt;/p&gt;</span>
-                <span class="s0">&lt;/div&gt;</span>
-            <span class="s0">&lt;/div&gt;</span>
-            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col-md-4&quot;</span><span class="s0">&gt;</span>
-                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;fdb-box p-4&quot;</span><span class="s0">&gt;</span>
-                    <span class="s0">&lt;h3&gt;</span><span class="s1">24/7 Availability</span><span class="s0">&lt;/h3&gt;</span>
-                    <span class="s0">&lt;p&gt;</span><span class="s1">We are available around the clock for your convenience.</span><span class="s0">&lt;/p&gt;</span>
-                <span class="s0">&lt;/div&gt;</span>
-            <span class="s0">&lt;/div&gt;</span>
-        <span class="s0">&lt;/div&gt;</span>
-    <span class="s0">&lt;/div&gt;</span>
-<span class="s0">&lt;/section&gt;</span>
-
-<span class="s4">&lt;!-- Footer Section --&gt;</span>
-<span class="s0">&lt;footer </span><span class="s2">class</span><span class="s3">=&quot;fdb-block footer-small bg-dark text-light&quot;</span><span class="s0">&gt;</span>
-    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;container&quot;</span><span class="s0">&gt;</span>
-        <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;row text-center&quot;</span><span class="s0">&gt;</span>
-            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col&quot;</span><span class="s0">&gt;</span>
-                <span class="s0">&lt;ul </span><span class="s2">class</span><span class="s3">=&quot;nav justify-content-center&quot;</span><span class="s0">&gt;</span>
-                    <span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;nav-item&quot;</span><span class="s0">&gt;</span>
-                        <span class="s0">&lt;a </span><span class="s2">class</span><span class="s3">=&quot;nav-link active&quot; </span><span class="s2">href</span><span class="s3">=&quot;index.html&quot;</span><span class="s0">&gt;</span><span class="s1">Home</span><span class="s0">&lt;/a&gt;</span>
-                    <span class="s0">&lt;/li&gt;</span>
-                    <span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;nav-item&quot;</span><span class="s0">&gt;</span>
-                        <span class="s0">&lt;a </span><span class="s2">class</span><span class="s3">=&quot;nav-link&quot; </span><span class="s2">href</span><span class="s3">=&quot;tarieven.html&quot;</span><span class="s0">&gt;</span><span class="s1">Tarieven</span><span class="s0">&lt;/a&gt;</span>
-                    <span class="s0">&lt;/li&gt;</span>
-                    <span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;nav-item&quot;</span><span class="s0">&gt;</span>
-                        <span class="s0">&lt;a </span><span class="s2">class</span><span class="s3">=&quot;nav-link&quot; </span><span class="s2">href</span><span class="s3">=&quot;contact.html&quot;</span><span class="s0">&gt;</span><span class="s1">Contact</span><span class="s0">&lt;/a&gt;</span>
-                    <span class="s0">&lt;/li&gt;</span>
-                <span class="s0">&lt;/ul&gt;</span>
-            <span class="s0">&lt;/div&gt;</span>
-        <span class="s0">&lt;/div&gt;</span>
-        <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;row text-center mt-4&quot;</span><span class="s0">&gt;</span>
-            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col&quot;</span><span class="s0">&gt;</span>
-                <span class="s0">&lt;p&gt;</span><span class="s1">© 2024 Budget Taxi Den Haag. All rights reserved.</span><span class="s0">&lt;/p&gt;</span>
-            <span class="s0">&lt;/div&gt;</span>
-        <span class="s0">&lt;/div&gt;</span>
-    <span class="s0">&lt;/div&gt;</span>
-<span class="s0">&lt;/footer&gt;</span>
-
-<span class="s4">&lt;!-- Bootstrap and JS Scripts --&gt;</span>
-<span class="s0">&lt;script </span><span class="s2">src</span><span class="s3">=&quot;https://code.jquery.com/jquery-3.2.1.slim.min.js&quot;</span><span class="s0">&gt;&lt;/script&gt;</span>
-<span class="s0">&lt;script </span><span class="s2">src</span><span class="s3">=&quot;https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js&quot;</span><span class="s0">&gt;&lt;/script&gt;</span>
-<span class="s0">&lt;script </span><span class="s2">src</span><span class="s3">=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js&quot;</span><span class="s0">&gt;&lt;/script&gt;</span>
-<span class="s0">&lt;/body&gt;</span>
-
-<span class="s0">&lt;/html&gt;</span>
-</pre>
+    <!-- Bootstrap and JS Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
+
 </html>
