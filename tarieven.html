@@ -84,4 +84,159 @@
         }
 
         .price-box {
-            background: rgba(255, 255
+            background: rgba(255, 255, 255, 0.9);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 6px 25px rgba(0, 0, 0, 0.3);
+            margin-bottom: 30px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .price-box:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+        }
+
+        .price-box h2 {
+            color: #FFC300;
+            font-size: 2em;
+            margin-bottom: 15px;
+        }
+
+        .price-box p {
+            font-size: 1.4em;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .btn-primary {
+            background-color: #006400;
+            border-color: #006400;
+            padding: 12px 25px;
+            font-size: 1.2em;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            border-radius: 50px;
+        }
+
+        .btn-primary:hover {
+            background-color: #006400;
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 40px 0;
+        }
+
+        footer a {
+            color: white;
+        }
+
+        footer h3 {
+            font-family: 'Oswald', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Sticky Header -->
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <div class="col-3 col-md-2">Budget Taxi Den Haag</div>
+                <div>
+                    <span><a class="phone-number" href="tel:+31701234567"><i class="fas fa-phone fa-rotate-90"></i> 0701234567</a></span>
+                    <span><a class="email" href="mailto:info@budgettaxi-denhaag.nl"><i class="fas fa-envelope"></i> info@budgettaxi-denhaag.nl</a></span>
+                </div>
+                <div class="social-icons">
+                    <a href="https://facebook.com/budgettaxidenhaag" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="https://instagram.com/budgettaxidenhaag" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/budgettaxidenhaag" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <nav class="navbar navbar-expand-md">
+                <a class="navbar-brand" href="index.html"><img alt="Budget Taxi Den Haag" src="https://imgur.com/xinfJAB.png" width="300px" height="150px"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav1">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="tarieven.html">Tarieven</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                    <div class="cta-call">
+                        <a href="tel:+31701234567"><button class="btn btn-primary">Bel Nu</button></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Tarieven Section -->
+    <div class="tarieven">
+        <div class="container">
+            <h1>Tarieven</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="price-box">
+                        <h2>Rotterdam / The Hague Airport</h2>
+                        <p>Prijs: €50 (Tot 4 personen)</p>
+                        <a href="tel:+31701234567" class="btn btn-primary">Bel Nu</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="price-box">
+                        <h2>Schiphol Taxi (Brengen)</h2>
+                        <p>Prijs: €80 (Tot 4 personen)</p>
+                        <a href="tel:+31701234567" class="btn btn-primary">Bel Nu</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="price-box">
+                        <h2>Schiphol Taxi (Ophalen)</h2>
+                        <p>Prijs: €85 (Tot 4 personen)</p>
+                        <a href="tel:+31701234567" class="btn btn-primary">Bel Nu</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <p><a href="tel:+31701234567">0701234567</a></p>
+                    <p><a href="mailto:info@budgettaxi-denhaag.nl">info@budgettaxi-denhaag.nl</a></p>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <h3>Menu</h3>
+                    <p><a href="index.html">Home</a></p>
+                    <p><a href="tarieven.html">Tarieven</a></p>
+                    <p><a href="contact.html">Contact</a></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center mt-4">
+                    <p>&copy; 2024 Budget Taxi Den Haag - Made by <a href="https://gainimpact.nl" target="_blank">Gainimpact</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap and JS dependencies -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
