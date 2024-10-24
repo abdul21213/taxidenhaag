@@ -1,289 +1,186 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<title>contact.html</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<style type="text/css">
-.s0 { color: #d5b778;}
-.s1 { color: #bcbec4;}
-.s2 { color: #bababa;}
-.s3 { color: #6aab73;}
-.s4 { color: #7a7e85;}
-.s5 { color: #56a8f5;}
-.s6 { color: #2aacb8;}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Taxi Den Haag - Contact</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,500|Oswald" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Froala Design Blocks CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/froala-design-blocks/2.0.0/css/froala_blocks.min.css" rel="stylesheet" type="text/css">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/e555a84553.js" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: 'Oswald', sans-serif;
+            color: #006400;
+        }
+
+        header {
+            background-color: #fff;
+            color: #333;
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .top-bar {
+            background-color: #fff;
+            color: #333;
+            padding: 10px 0;
+        }
+
+        .top-bar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .top-bar a {
+            color: #333;
+            margin-left: 20px;
+        }
+
+        .social-icons a {
+            color: #333;
+            margin-right: 15px;
+        }
+
+        nav a {
+            color: #333;
+            margin-right: 15px;
+            font-weight: 500;
+        }
+
+        .cta-call button {
+            background-color: #006400;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+
+        .contact {
+            padding: 50px 0;
+        }
+
+        .contact h1 {
+            margin-bottom: 30px;
+        }
+
+        .icons img {
+            width: 64px;
+            height: 64px;
+        }
+
+        .icons p {
+            margin-top: 10px;
+        }
+
+        /* Contact Form Styling */
+        form {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .form-group label {
+            font-weight: bold;
+        }
+
+        .form-control {
+            border-radius: 4px;
+        }
+
+        .btn-primary {
+            background-color: #006400;
+            border-color: #006400;
+        }
+
+        .btn-primary:hover {
+            background-color: #006400;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 40px 0;
+        }
+
+        footer a {
+            color: white;
+        }
+
+        footer h3 {
+            font-family: 'Oswald', sans-serif;
+        }
+    </style>
 </head>
-<body bgcolor="#1e1f22">
-<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
-<tr><td><center>
-<font face="Arial, Helvetica" color="#000000">
-contact.html</font>
-</center></td></tr></table>
-<pre><span class="s0">&lt;!DOCTYPE </span><span class="s2">html</span><span class="s0">&gt;</span>
-<span class="s0">&lt;html </span><span class="s2">lang</span><span class="s3">=&quot;en&quot;</span><span class="s0">&gt;</span>
 
-<span class="s0">&lt;head&gt;</span>
-    <span class="s0">&lt;meta </span><span class="s2">charset</span><span class="s3">=&quot;UTF-8&quot;</span><span class="s0">&gt;</span>
-    <span class="s0">&lt;meta </span><span class="s2">name</span><span class="s3">=&quot;viewport&quot; </span><span class="s2">content</span><span class="s3">=&quot;width=device-width, initial-scale=1.0&quot;</span><span class="s0">&gt;</span>
-    <span class="s0">&lt;title&gt;</span><span class="s1">Budget Taxi Den Haag - Contact</span><span class="s0">&lt;/title&gt;</span>
+<body>
 
-    <span class="s4">&lt;!-- Google Fonts --&gt;</span>
-    <span class="s0">&lt;link </span><span class="s2">href</span><span class="s3">=&quot;https://fonts.googleapis.com/css?family=Lato:400,500|Oswald&quot; </span><span class="s2">rel</span><span class="s3">=&quot;stylesheet&quot;</span><span class="s0">&gt;</span>
-    <span class="s4">&lt;!-- Bootstrap CSS --&gt;</span>
-    <span class="s0">&lt;link </span><span class="s2">crossorigin</span><span class="s3">=&quot;anonymous&quot; </span><span class="s2">href</span><span class="s3">=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css&quot; </span><span class="s2">rel</span><span class="s3">=&quot;stylesheet&quot; </span><span class="s0">/&gt;</span>
-    <span class="s4">&lt;!-- Froala Design Blocks CSS --&gt;</span>
-    <span class="s0">&lt;link </span><span class="s2">href</span><span class="s3">=&quot;https://cdnjs.cloudflare.com/ajax/libs/froala-design-blocks/2.0.0/css/froala_blocks.min.css&quot; </span><span class="s2">rel</span><span class="s3">=&quot;stylesheet&quot; </span><span class="s2">type</span><span class="s3">=&quot;text/css&quot; </span><span class="s0">/&gt;</span>
-    <span class="s4">&lt;!-- FontAwesome --&gt;</span>
-    <span class="s0">&lt;script </span><span class="s2">src</span><span class="s3">=&quot;https://kit.fontawesome.com/e555a84553.js&quot; </span><span class="s2">crossorigin</span><span class="s3">=&quot;anonymous&quot;</span><span class="s0">&gt;&lt;/script&gt;</span>
+    <!-- Sticky Header -->
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <div class="col-3 col-md-2">Budget Taxi Den Haag</div>
+                <div>
+                    <span><a class="phone-number" href="tel:+31701234567"><i class="fas fa-phone fa-rotate-90"></i> 0701234567</a></span>
+                    <span><a class="email" href="mailto:info@budgettaxi-denhaag.nl"><i class="fas fa-envelope"></i> info@budgettaxi-denhaag.nl</a></span>
+                </div>
+                <div class="social-icons">
+                    <a href="https://facebook.com/budgettaxidenhaag" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="https://instagram.com/budgettaxidenhaag" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/budgettaxidenhaag" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
 
-    <span class="s0">&lt;style&gt;</span>
-        <span class="s0">body </span><span class="s1">{</span>
-            <span class="s2">font-family</span><span class="s1">: </span><span class="s3">'Lato'</span><span class="s1">, </span><span class="s3">sans-serif</span><span class="s1">;</span>
-            <span class="s2">background-color</span><span class="s1">: </span><span class="s5">#f4f4f4</span><span class="s1">;</span>
-            <span class="s2">margin</span><span class="s1">: </span><span class="s6">0</span><span class="s1">;</span>
-            <span class="s2">padding</span><span class="s1">: </span><span class="s6">0</span><span class="s1">;</span>
-        <span class="s1">}</span>
+        <div class="container">
+            <nav class="navbar navbar-expand-md">
+                <a class="navbar-brand" href="index.html"><img alt="Budget Taxi Den Haag" src="https://imgur.com/xinfJAB.png" width="300px" height="150px"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav1">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="tarieven.html">Tarieven</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                    <div class="cta-call">
+                        <a href="tel:+31701234567"><button class="btn btn-primary">Bel Nu</button></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
 
-        <span class="s0">h1</span><span class="s1">, </span><span class="s0">h2</span><span class="s1">, </span><span class="s0">h3</span><span class="s1">, </span><span class="s0">h4 </span><span class="s1">{</span>
-            <span class="s2">font-family</span><span class="s1">: </span><span class="s3">'Oswald'</span><span class="s1">, </span><span class="s3">sans-serif</span><span class="s1">;</span>
-            <span class="s2">color</span><span class="s1">: </span><span class="s5">#006400</span><span class="s1">;</span>
-        <span class="s1">}</span>
-
-        <span class="s0">header </span><span class="s1">{</span>
-            <span class="s2">background-color</span><span class="s1">: </span><span class="s5">#fff</span><span class="s1">; </span><span class="s4">/* Aangepast naar wit */</span>
-            <span class="s2">color</span><span class="s1">: </span><span class="s5">#333</span><span class="s1">;</span>
-            <span class="s2">padding</span><span class="s1">: </span><span class="s6">10</span><span class="s3">px </span><span class="s6">0</span><span class="s1">;</span>
-            <span class="s2">position</span><span class="s1">: </span><span class="s3">sticky</span><span class="s1">;</span>
-            <span class="s2">top</span><span class="s1">: </span><span class="s6">0</span><span class="s1">;</span>
-            <span class="s2">z-index</span><span class="s1">: </span><span class="s6">1000</span><span class="s1">;</span>
-            <span class="s2">box-shadow</span><span class="s1">: </span><span class="s6">0 2</span><span class="s3">px </span><span class="s6">4</span><span class="s3">px </span><span class="s0">rgba</span><span class="s1">(</span><span class="s6">0</span><span class="s1">, </span><span class="s6">0</span><span class="s1">, </span><span class="s6">0</span><span class="s1">, </span><span class="s6">0.1</span><span class="s1">);</span>
-        <span class="s1">}</span>
-
-        <span class="s1">.</span><span class="s0">top-bar </span><span class="s1">{</span>
-            <span class="s2">background-color</span><span class="s1">: </span><span class="s5">#fff</span><span class="s1">; </span><span class="s4">/* Aangepast naar wit */</span>
-            <span class="s2">color</span><span class="s1">: </span><span class="s5">#333</span><span class="s1">;</span>
-            <span class="s2">padding</span><span class="s1">: </span><span class="s6">10</span><span class="s3">px </span><span class="s6">0</span><span class="s1">;</span>
-        <span class="s1">}</span>
-
-        <span class="s1">.</span><span class="s0">top-bar </span><span class="s1">.</span><span class="s0">container </span><span class="s1">{</span>
-            <span class="s2">display</span><span class="s1">: </span><span class="s3">flex</span><span class="s1">;</span>
-            <span class="s2">justify-content</span><span class="s1">: </span><span class="s3">space-between</span><span class="s1">;</span>
-            <span class="s2">align-items</span><span class="s1">: </span><span class="s3">center</span><span class="s1">;</span>
-        <span class="s1">}</span>
-
-        <span class="s1">.</span><span class="s0">top-bar a </span><span class="s1">{</span>
-            <span class="s2">color</span><span class="s1">: </span><span class="s5">#333</span><span class="s1">;</span>
-            <span class="s2">margin-left</span><span class="s1">: </span><span class="s6">20</span><span class="s3">px</span><span class="s1">;</span>
-        <span class="s1">}</span>
-
-        <span class="s1">.</span><span class="s0">social-icons a </span><span class="s1">{</span>
-            <span class="s2">color</span><span class="s1">: </span><span class="s5">#333</span><span class="s1">;</span>
-            <span class="s2">margin-right</span><span class="s1">: </span><span class="s6">15</span><span class="s3">px</span><span class="s1">;</span>
-        <span class="s1">}</span>
-
-        <span class="s0">nav a </span><span class="s1">{</span>
-            <span class="s2">color</span><span class="s1">: </span><span class="s5">#333</span><span class="s1">;</span>
-            <span class="s2">margin-right</span><span class="s1">: </span><span class="s6">15</span><span class="s3">px</span><span class="s1">;</span>
-            <span class="s2">font-weight</span><span class="s1">: </span><span class="s6">500</span><span class="s1">;</span>
-        <span class="s1">}</span>
-
-        <span class="s1">.</span><span class="s0">cta-call button </span><span class="s1">{</span>
-            <span class="s2">background-color</span><span class="s1">: </span><span class="s5">#006400</span><span class="s1">;</span>
-            <span class="s2">border</span><span class="s1">: </span><span class="s3">none</span><span class="s1">;</span>
-            <span class="s2">padding</span><span class="s1">: </span><span class="s6">10</span><span class="s3">px </span><span class="s6">20</span><span class="s3">px</span><span class="s1">;</span>
-            <span class="s2">color</span><span class="s1">: </span><span class="s3">white</span><span class="s1">;</span>
-            <span class="s2">border-radius</span><span class="s1">: </span><span class="s6">4</span><span class="s3">px</span><span class="s1">;</span>
-            <span class="s2">font-weight</span><span class="s1">: </span><span class="s6">600</span><span class="s1">;</span>
-        <span class="s1">}</span>
-
-        <span class="s1">.</span><span class="s0">contact </span><span class="s1">{</span>
-            <span class="s2">padding</span><span class="s1">: </span><span class="s6">50</span><span class="s3">px </span><span class="s6">0</span><span class="s1">;</span>
-        <span class="s1">}</span>
-
-        <span class="s1">.</span><span class="s0">contact h1 </span><span class="s1">{</span>
-            <span class="s2">margin-bottom</span><span class="s1">: </span><span class="s6">30</span><span class="s3">px</span><span class="s1">;</span>
-        <span class="s1">}</span>
-
-        <span class="s1">.</span><span class="s0">icons img </span><span class="s1">{</span>
-            <span class="s2">width</span><span class="s1">: </span><span class="s6">64</span><span class="s3">px</span><span class="s1">;</span>
-            <span class="s2">height</span><span class="s1">: </span><span class="s6">64</span><span class="s3">px</span><span class="s1">;</span>
-        <span class="s1">}</span>
-
-        <span class="s1">.</span><span class="s0">icons p </span><span class="s1">{</span>
-            <span class="s2">margin-top</span><span class="s1">: </span><span class="s6">10</span><span class="s3">px</span><span class="s1">;</span>
-        <span class="s1">}</span>
-
-        <span class="s4">/* Contact Form Styling */</span>
-        <span class="s0">form </span><span class="s1">{</span>
-            <span class="s2">background-color</span><span class="s1">: </span><span class="s5">#fff</span><span class="s1">;</span>
-            <span class="s2">padding</span><span class="s1">: </span><span class="s6">30</span><span class="s3">px</span><span class="s1">;</span>
-            <span class="s2">border-radius</span><span class="s1">: </span><span class="s6">8</span><span class="s3">px</span><span class="s1">;</span>
-            <span class="s2">box-shadow</span><span class="s1">: </span><span class="s6">0 2</span><span class="s3">px </span><span class="s6">10</span><span class="s3">px </span><span class="s0">rgba</span><span class="s1">(</span><span class="s6">0</span><span class="s1">, </span><span class="s6">0</span><span class="s1">, </span><span class="s6">0</span><span class="s1">, </span><span class="s6">0.1</span><span class="s1">);</span>
-            <span class="s2">margin-bottom</span><span class="s1">: </span><span class="s6">30</span><span class="s3">px</span><span class="s1">;</span>
-        <span class="s1">}</span>
-
-        <span class="s1">.</span><span class="s0">form-group label </span><span class="s1">{</span>
-            <span class="s2">font-weight</span><span class="s1">: </span><span class="s3">bold</span><span class="s1">;</span>
-        <span class="s1">}</span>
-
-        <span class="s1">.</span><span class="s0">form-control </span><span class="s1">{</span>
-            <span class="s2">border-radius</span><span class="s1">: </span><span class="s6">4</span><span class="s3">px</span><span class="s1">;</span>
-        <span class="s1">}</span>
-
-        <span class="s1">.</span><span class="s0">btn-primary </span><span class="s1">{</span>
-            <span class="s2">background-color</span><span class="s1">: </span><span class="s5">#006400</span><span class="s1">;</span>
-            <span class="s2">border-color</span><span class="s1">: </span><span class="s5">#006400</span><span class="s1">;</span>
-        <span class="s1">}</span>
-
-        <span class="s1">.</span><span class="s0">btn-primary</span><span class="s1">:</span><span class="s0">hover </span><span class="s1">{</span>
-            <span class="s2">background-color</span><span class="s1">: </span><span class="s5">#006400</span><span class="s1">;</span>
-        <span class="s1">}</span>
-
-        <span class="s4">/* Footer */</span>
-        <span class="s0">footer </span><span class="s1">{</span>
-            <span class="s2">background-color</span><span class="s1">: </span><span class="s5">#333</span><span class="s1">;</span>
-            <span class="s2">color</span><span class="s1">: </span><span class="s3">white</span><span class="s1">;</span>
-            <span class="s2">padding</span><span class="s1">: </span><span class="s6">40</span><span class="s3">px </span><span class="s6">0</span><span class="s1">;</span>
-        <span class="s1">}</span>
-
-        <span class="s0">footer a </span><span class="s1">{</span>
-            <span class="s2">color</span><span class="s1">: </span><span class="s3">white</span><span class="s1">;</span>
-        <span class="s1">}</span>
-
-        <span class="s0">footer h3 </span><span class="s1">{</span>
-            <span class="s2">font-family</span><span class="s1">: </span><span class="s3">'Oswald'</span><span class="s1">, </span><span class="s3">sans-serif</span><span class="s1">;</span>
-        <span class="s1">}</span>
-    <span class="s0">&lt;/style&gt;</span>
-<span class="s0">&lt;/head&gt;</span>
-
-<span class="s0">&lt;body&gt;</span>
-
-<span class="s4">&lt;!-- Sticky Header --&gt;</span>
-<span class="s0">&lt;header&gt;</span>
-    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;top-bar&quot;</span><span class="s0">&gt;</span>
-        <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;container&quot;</span><span class="s0">&gt;</span>
-            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col-3 col-md-2&quot;</span><span class="s0">&gt;</span><span class="s1">Budget Taxi Den Haag</span><span class="s0">&lt;/div&gt;</span>
-            <span class="s0">&lt;div&gt;</span>
-                <span class="s0">&lt;span&gt;&lt;a </span><span class="s2">class</span><span class="s3">=&quot;phone-number&quot; </span><span class="s2">href</span><span class="s3">=&quot;tel:+31701234567&quot;</span><span class="s0">&gt;&lt;i </span><span class="s2">class</span><span class="s3">=&quot;fas fa-phone fa-rotate-90&quot;</span><span class="s0">&gt;&lt;/i&gt; </span><span class="s1">0701234567</span><span class="s0">&lt;/a&gt;&lt;/span&gt;</span>
-                <span class="s0">&lt;span&gt;&lt;a </span><span class="s2">class</span><span class="s3">=&quot;email&quot; </span><span class="s2">href</span><span class="s3">=&quot;mailto:info@budgettaxi-denhaag.nl&quot;</span><span class="s0">&gt;&lt;i </span><span class="s2">class</span><span class="s3">=&quot;fas fa-envelope&quot;</span><span class="s0">&gt;&lt;/i&gt; </span><span class="s1">info@budgettaxi-denhaag.nl</span><span class="s0">&lt;/a&gt;&lt;/span&gt;</span>
-            <span class="s0">&lt;/div&gt;</span>
-            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;social-icons&quot;</span><span class="s0">&gt;</span>
-                <span class="s0">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;https://facebook.com/budgettaxidenhaag&quot; </span><span class="s2">target</span><span class="s3">=&quot;_blank&quot; </span><span class="s2">title</span><span class="s3">=&quot;Facebook&quot;</span><span class="s0">&gt;&lt;i </span><span class="s2">class</span><span class="s3">=&quot;fab fa-facebook&quot;</span><span class="s0">&gt;&lt;/i&gt;&lt;/a&gt;</span>
-                <span class="s0">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;https://instagram.com/budgettaxidenhaag&quot; </span><span class="s2">target</span><span class="s3">=&quot;_blank&quot; </span><span class="s2">title</span><span class="s3">=&quot;Instagram&quot;</span><span class="s0">&gt;&lt;i </span><span class="s2">class</span><span class="s3">=&quot;fab fa-instagram&quot;</span><span class="s0">&gt;&lt;/i&gt;&lt;/a&gt;</span>
-                <span class="s0">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;https://twitter.com/budgettaxidenhaag&quot; </span><span class="s2">target</span><span class="s3">=&quot;_blank&quot; </span><span class="s2">title</span><span class="s3">=&quot;Twitter&quot;</span><span class="s0">&gt;&lt;i </span><span class="s2">class</span><span class="s3">=&quot;fab fa-twitter&quot;</span><span class="s0">&gt;&lt;/i&gt;&lt;/a&gt;</span>
-            <span class="s0">&lt;/div&gt;</span>
-        <span class="s0">&lt;/div&gt;</span>
-    <span class="s0">&lt;/div&gt;</span>
-
-    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;container&quot;</span><span class="s0">&gt;</span>
-        <span class="s0">&lt;nav </span><span class="s2">class</span><span class="s3">=&quot;navbar navbar-expand-md&quot;</span><span class="s0">&gt;</span>
-            <span class="s0">&lt;a </span><span class="s2">class</span><span class="s3">=&quot;navbar-brand&quot; </span><span class="s2">href</span><span class="s3">=&quot;index.html&quot;</span><span class="s0">&gt;&lt;img </span><span class="s2">alt</span><span class="s3">=&quot;Budget Taxi Den Haag&quot; </span><span class="s2">src</span><span class="s3">=&quot;https://imgur.com/xinfJAB.png&quot; </span><span class="s2">width</span><span class="s3">=&quot;300px&quot; </span><span class="s2">height</span><span class="s3">=&quot;150px&quot;</span><span class="s0">/&gt;&lt;/a&gt;</span>
-            <span class="s0">&lt;button </span><span class="s2">class</span><span class="s3">=&quot;navbar-toggler&quot; </span><span class="s2">type</span><span class="s3">=&quot;button&quot; </span><span class="s2">data-toggle</span><span class="s3">=&quot;collapse&quot; </span><span class="s2">data-target</span><span class="s3">=&quot;#navbarNav1&quot; </span><span class="s2">aria-controls</span><span class="s3">=&quot;navbarNav1&quot; </span><span class="s2">aria-expanded</span><span class="s3">=&quot;false&quot; </span><span class="s2">aria-label</span><span class="s3">=&quot;Toggle navigation&quot;</span><span class="s0">&gt;</span>
-                <span class="s0">&lt;span </span><span class="s2">class</span><span class="s3">=&quot;navbar-toggler-icon&quot;</span><span class="s0">&gt;&lt;/span&gt;</span>
-            <span class="s0">&lt;/button&gt;</span>
-            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;collapse navbar-collapse&quot; </span><span class="s2">id</span><span class="s3">=&quot;navbarNav1&quot;</span><span class="s0">&gt;</span>
-                <span class="s0">&lt;ul </span><span class="s2">class</span><span class="s3">=&quot;navbar-nav mr-auto&quot;</span><span class="s0">&gt;</span>
-                    <span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;nav-item&quot;</span><span class="s0">&gt;&lt;a </span><span class="s2">class</span><span class="s3">=&quot;nav-link&quot; </span><span class="s2">href</span><span class="s3">=&quot;index.html&quot;</span><span class="s0">&gt;</span><span class="s1">Home</span><span class="s0">&lt;/a&gt;&lt;/li&gt;</span>
-                    <span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;nav-item&quot;</span><span class="s0">&gt;&lt;a </span><span class="s2">class</span><span class="s3">=&quot;nav-link&quot; </span><span class="s2">href</span><span class="s3">=&quot;tarieven.html&quot;</span><span class="s0">&gt;</span><span class="s1">Tarieven</span><span class="s0">&lt;/a&gt;&lt;/li&gt;</span>
-                    <span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;nav-item&quot;</span><span class="s0">&gt;&lt;a </span><span class="s2">class</span><span class="s3">=&quot;nav-link&quot; </span><span class="s2">href</span><span class="s3">=&quot;contact.html&quot;</span><span class="s0">&gt;</span><span class="s1">Contact</span><span class="s0">&lt;/a&gt;&lt;/li&gt;</span>
-                <span class="s0">&lt;/ul&gt;</span>
-                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;cta-call&quot;</span><span class="s0">&gt;</span>
-                    <span class="s0">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;tel:+31701234567&quot;</span><span class="s0">&gt;&lt;button </span><span class="s2">class</span><span class="s3">=&quot;btn btn-primary&quot;</span><span class="s0">&gt;</span><span class="s1">Bel Nu</span><span class="s0">&lt;/button&gt;&lt;/a&gt;</span>
-                <span class="s0">&lt;/div&gt;</span>
-            <span class="s0">&lt;/div&gt;</span>
-        <span class="s0">&lt;/nav&gt;</span>
-    <span class="s0">&lt;/div&gt;</span>
-<span class="s0">&lt;/header&gt;</span>
-
-<span class="s4">&lt;!-- Contact Section --&gt;</span>
-<span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;contact&quot;</span><span class="s0">&gt;</span>
-    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;container text-center&quot;</span><span class="s0">&gt;</span>
-        <span class="s0">&lt;h1&gt;</span><span class="s1">Contact</span><span class="s0">&lt;/h1&gt;</span>
-        <span class="s0">&lt;p&gt;</span><span class="s1">Er zijn verschillende manieren om met ons contact op te nemen. Hieronder vindt u ze allemaal.</span><span class="s0">&lt;/p&gt;</span>
-        <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;row icons&quot;</span><span class="s0">&gt;</span>
-            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col-6 col-lg-3&quot;</span><span class="s0">&gt;</span>
-                <span class="s0">&lt;img </span><span class="s2">src</span><span class="s3">=&quot;https://img.icons8.com/color/64/000000/phone.png&quot; </span><span class="s2">alt</span><span class="s3">=&quot;Telefoon&quot; </span><span class="s0">/&gt;</span>
-                <span class="s0">&lt;p </span><span class="s2">class</span><span class="s3">=&quot;font-weight-bold&quot;</span><span class="s0">&gt;</span><span class="s1">Telefoonnummer</span><span class="s0">&lt;/p&gt;</span>
-                <span class="s0">&lt;p&gt;&lt;a </span><span class="s2">href</span><span class="s3">=&quot;tel:+31701234567&quot;</span><span class="s0">&gt;</span><span class="s1">0701234567</span><span class="s0">&lt;/a&gt;&lt;/p&gt;</span>
-            <span class="s0">&lt;/div&gt;</span>
-            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col-6 col-lg-3&quot;</span><span class="s0">&gt;</span>
-                <span class="s0">&lt;img </span><span class="s2">src</span><span class="s3">=&quot;https://img.icons8.com/color/64/000000/email.png&quot; </span><span class="s2">alt</span><span class="s3">=&quot;Email&quot; </span><span class="s0">/&gt;</span>
-                <span class="s0">&lt;p </span><span class="s2">class</span><span class="s3">=&quot;font-weight-bold&quot;</span><span class="s0">&gt;</span><span class="s1">E-mail</span><span class="s0">&lt;/p&gt;</span>
-                <span class="s0">&lt;p&gt;</span><span class="s1">info@budgettaxi-denhaag.nl</span><span class="s0">&lt;/p&gt;</span>
-            <span class="s0">&lt;/div&gt;</span>
-            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col-6 col-lg-3&quot;</span><span class="s0">&gt;</span>
-                <span class="s0">&lt;img </span><span class="s2">src</span><span class="s3">=&quot;https://img.icons8.com/color/64/000000/organization.png&quot; </span><span class="s2">alt</span><span class="s3">=&quot;Company&quot; </span><span class="s0">/&gt;</span>
-                <span class="s0">&lt;p </span><span class="s2">class</span><span class="s3">=&quot;font-weight-bold&quot;</span><span class="s0">&gt;</span><span class="s1">KVK Nummer</span><span class="s0">&lt;/p&gt;</span>
-                <span class="s0">&lt;p&gt;</span><span class="s1">70829152</span><span class="s0">&lt;/p&gt;</span>
-            <span class="s0">&lt;/div&gt;</span>
-        <span class="s0">&lt;/div&gt;</span>
-    <span class="s0">&lt;/div&gt;</span>
-<span class="s0">&lt;/div&gt;</span>
-
-<span class="s4">&lt;!-- Contact Form --&gt;</span>
-<span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;container&quot;</span><span class="s0">&gt;</span>
-    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;row&quot;</span><span class="s0">&gt;</span>
-        <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col-12 col-lg-6&quot;</span><span class="s0">&gt;</span>
-            <span class="s0">&lt;h2 </span><span class="s2">class</span><span class="s3">=&quot;text-center&quot;</span><span class="s0">&gt;</span><span class="s1">Contact formulier</span><span class="s0">&lt;/h2&gt;</span>
-            <span class="s0">&lt;form&gt;</span>
-                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;form-group&quot;</span><span class="s0">&gt;</span>
-                    <span class="s0">&lt;label </span><span class="s2">for</span><span class="s3">=&quot;email&quot;</span><span class="s0">&gt;</span><span class="s1">E-mail</span><span class="s0">&lt;/label&gt;</span>
-                    <span class="s0">&lt;input </span><span class="s2">type</span><span class="s3">=&quot;email&quot; </span><span class="s2">class</span><span class="s3">=&quot;form-control&quot; </span><span class="s2">id</span><span class="s3">=&quot;email&quot; </span><span class="s2">placeholder</span><span class="s3">=&quot;E-mail&quot;</span><span class="s0">&gt;</span>
-                <span class="s0">&lt;/div&gt;</span>
-                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;form-group&quot;</span><span class="s0">&gt;</span>
-                    <span class="s0">&lt;label </span><span class="s2">for</span><span class="s3">=&quot;phone&quot;</span><span class="s0">&gt;</span><span class="s1">Telefoonnummer</span><span class="s0">&lt;/label&gt;</span>
-                    <span class="s0">&lt;input </span><span class="s2">type</span><span class="s3">=&quot;tel&quot; </span><span class="s2">class</span><span class="s3">=&quot;form-control&quot; </span><span class="s2">id</span><span class="s3">=&quot;phone&quot; </span><span class="s2">placeholder</span><span class="s3">=&quot;Telefoonnummer&quot;</span><span class="s0">&gt;</span>
-                <span class="s0">&lt;/div&gt;</span>
-                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;form-group&quot;</span><span class="s0">&gt;</span>
-                    <span class="s0">&lt;label </span><span class="s2">for</span><span class="s3">=&quot;type&quot;</span><span class="s0">&gt;</span><span class="s1">Type vraag</span><span class="s0">&lt;/label&gt;</span>
-                    <span class="s0">&lt;select </span><span class="s2">class</span><span class="s3">=&quot;form-control&quot; </span><span class="s2">id</span><span class="s3">=&quot;type&quot;</span><span class="s0">&gt;</span>
-                        <span class="s0">&lt;option </span><span class="s2">value</span><span class="s3">=&quot;Vraag&quot;</span><span class="s0">&gt;</span><span class="s1">Vraag</span><span class="s0">&lt;/option&gt;</span>
-                        <span class="s0">&lt;option </span><span class="s2">value</span><span class="s3">=&quot;Suggestie&quot;</span><span class="s0">&gt;</span><span class="s1">Suggestie</span><span class="s0">&lt;/option&gt;</span>
-                        <span class="s0">&lt;option </span><span class="s2">value</span><span class="s3">=&quot;anders&quot;</span><span class="s0">&gt;</span><span class="s1">Anders</span><span class="s0">&lt;/option&gt;</span>
-                    <span class="s0">&lt;/select&gt;</span>
-                <span class="s0">&lt;/div&gt;</span>
-                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;form-group&quot;</span><span class="s0">&gt;</span>
-                    <span class="s0">&lt;label </span><span class="s2">for</span><span class="s3">=&quot;message&quot;</span><span class="s0">&gt;</span><span class="s1">Uw bericht</span><span class="s0">&lt;/label&gt;</span>
-                    <span class="s0">&lt;textarea </span><span class="s2">class</span><span class="s3">=&quot;form-control&quot; </span><span class="s2">id</span><span class="s3">=&quot;message&quot; </span><span class="s2">rows</span><span class="s3">=&quot;5&quot; </span><span class="s2">placeholder</span><span class="s3">=&quot;Uw bericht&quot;</span><span class="s0">&gt;&lt;/textarea&gt;</span>
-                <span class="s0">&lt;/div&gt;</span>
-                <span class="s0">&lt;button </span><span class="s2">type</span><span class="s3">=&quot;submit&quot; </span><span class="s2">class</span><span class="s3">=&quot;btn btn-primary btn-block&quot;</span><span class="s0">&gt;</span><span class="s1">Verstuur</span><span class="s0">&lt;/button&gt;</span>
-            <span class="s0">&lt;/form&gt;</span>
-        <span class="s0">&lt;/div&gt;</span>
-        <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col-12 col-lg-6&quot;</span><span class="s0">&gt;</span>
-            <span class="s0">&lt;iframe </span><span class="s2">id</span><span class="s3">=&quot;gmap_canvas&quot; </span><span class="s2">src</span><span class="s3">=&quot;https://maps.google.com/maps?q=den%20haag&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed&quot; </span><span class="s2">width</span><span class="s3">=&quot;100%&quot; </span><span class="s2">height</span><span class="s3">=&quot;500&quot; </span><span class="s2">frameborder</span><span class="s3">=&quot;0&quot; </span><span class="s2">style</span><span class="s3">=&quot;</span><span class="s2">border</span><span class="s1">:</span><span class="s6">0</span><span class="s1">;</span><span class="s3">&quot;</span><span class="s0">&gt;&lt;/iframe&gt;</span>
-        <span class="s0">&lt;/div&gt;</span>
-    <span class="s0">&lt;/div&gt;</span>
-<span class="s0">&lt;/div&gt;</span>
-
-<span class="s4">&lt;!-- Footer --&gt;</span>
-<span class="s0">&lt;footer&gt;</span>
-    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;container&quot;</span><span class="s0">&gt;</span>
-        <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;row&quot;</span><span class="s0">&gt;</span>
-            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col-12 col-sm-6&quot;</span><span class="s0">&gt;</span>
-                <span class="s0">&lt;p&gt;&lt;a </span><span class="s2">href</span><span class="s3">=&quot;tel:+31701234567&quot;</span><span class="s0">&gt;</span><span class="s1">0701234567</span><span class="s0">&lt;/a&gt;&lt;/p&gt;</span>
-                <span class="s0">&lt;p&gt;&lt;a </span><span class="s2">href</span><span class="s3">=&quot;mailto:info@budgettaxi-denhaag.nl&quot;</span><span class="s0">&gt;</span><span class="s1">info@budgettaxi-denhaag.nl</span><span class="s0">&lt;/a&gt;&lt;/p&gt;</span>
-            <span class="s0">&lt;/div&gt;</span>
-            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col-12 col-sm-6&quot;</span><span class="s0">&gt;</span>
-                <span class="s0">&lt;h3&gt;</span><span class="s1">Menu</span><span class="s0">&lt;/h3&gt;</span>
-                <span class="s0">&lt;p&gt;&lt;a </span><span class="s2">href</span><span class="s3">=&quot;index.html&quot;</span><span class="s0">&gt;</span><span class="s1">Home</span><span class="s0">&lt;/a&gt;&lt;/p&gt;</span>
-                <span class="s0">&lt;p&gt;&lt;a </span><span class="s2">href</span><span class="s3">=&quot;tarieven.html&quot;</span><span class="s0">&gt;</span><span class="s1">Tarieven</span><span class="s0">&lt;/a&gt;&lt;/p&gt;</span>
-                <span class="s0">&lt;p&gt;&lt;a </span><span class="s2">href</span><span class="s3">=&quot;contact.html&quot;</span><span class="s0">&gt;</span><span class="s1">Contact</span><span class="s0">&lt;/a&gt;&lt;/p&gt;</span>
-            <span class="s0">&lt;/div&gt;</span>
-        <span class="s0">&lt;/div&gt;</span>
-        <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;row&quot;</span><span class="s0">&gt;</span>
-            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col text-center mt-4&quot;</span><span class="s0">&gt;</span>
-                <span class="s0">&lt;p&gt;</span><span class="s5">&amp;copy; </span><span class="s1">2024 Budget Taxi Den Haag </span><span class="s0">&lt;/p&gt;</span>
-            <span class="s0">&lt;/div&gt;</span>
-        <span class="s0">&lt;/div&gt;</span>
-    <span class="s0">&lt;/div&gt;</span>
-<span class="s0">&lt;/footer&gt;</span>
-
-<span class="s4">&lt;!-- Bootstrap and JS dependencies --&gt;</span>
-<span class="s0">&lt;script </span><span class="s2">src</span><span class="s3">=&quot;https://code.jquery.com/jquery-3.2.1.slim.min.js&quot;</span><span class="s0">&gt;&lt;/script&gt;</span>
-<span class="s0">&lt;script </span><span class="s2">src</span><span class="s3">=&quot;https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js&quot;</span><span class="s0">&gt;&lt;/script&gt;</span>
-<span class="s0">&lt;script </span><span class="s2">src</span><span class="s3">=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js&quot;</span><span class="s0">&gt;&lt;/script&gt;</span>
-<span class="s0">&lt;/body&gt;</span>
-
-<span class="s0">&lt;/html&gt;</span>
-</pre>
-</body>
-</html>
+    <!-- Contact Section -->
+    <div class="contact">
+        <div class="container text-center">
+            <h1>Contact</h1>
+            <p>Er zijn verschillende manieren om met ons contact op te nemen. Hieronder vindt u ze allemaal.</p>
+            <div class="row icons">
+                <div class="col-6 col-lg-3
