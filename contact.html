@@ -23,10 +23,7 @@
             padding: 0;
         }
 
-        h1,
-        h2,
-        h3,
-        h4 {
+        h1, h2, h3, h4 {
             font-family: 'Oswald', sans-serif;
             color: #006400;
         }
@@ -95,7 +92,6 @@
             margin-top: 10px;
         }
 
-        /* Contact Form Styling */
         form {
             background-color: #fff;
             padding: 30px;
@@ -121,7 +117,6 @@
             background-color: #006400;
         }
 
-        /* Footer */
         footer {
             background-color: #333;
             color: white;
@@ -183,4 +178,88 @@
             <h1>Contact</h1>
             <p>Er zijn verschillende manieren om met ons contact op te nemen. Hieronder vindt u ze allemaal.</p>
             <div class="row icons">
-                <div class="col-6 col-lg-3
+                <div class="col-6 col-lg-3">
+                    <img src="https://img.icons8.com/color/64/000000/phone.png" alt="Telefoon">
+                    <p class="font-weight-bold">Telefoonnummer</p>
+                    <p><a href="tel:+31701234567">0701234567</a></p>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <img src="https://img.icons8.com/color/64/000000/email.png" alt="Email">
+                    <p class="font-weight-bold">E-mail</p>
+                    <p>info@budgettaxi-denhaag.nl</p>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <img src="https://img.icons8.com/color/64/000000/organization.png" alt="Company">
+                    <p class="font-weight-bold">KVK Nummer</p>
+                    <p>70829152</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <h2 class="text-center">Contact formulier</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" class="form-control" id="email" placeholder="E-mail">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telefoonnummer</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="Telefoonnummer">
+                    </div>
+                    <div class="form-group">
+                        <label for="type">Type vraag</label>
+                        <select class="form-control" id="type">
+                            <option value="Vraag">Vraag</option>
+                            <option value="Suggestie">Suggestie</option>
+                            <option value="anders">Anders</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Uw bericht</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Uw bericht"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Verstuur</button>
+                </form>
+            </div>
+            <div class="col-12 col-lg-6">
+                <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=den%20haag&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" width="100%" height="500" frameborder="0" style="border:0;"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <p><a href="tel:+31701234567">0701234567</a></p>
+                    <p><a href="mailto:info@budgettaxi-denhaag.nl">info@budgettaxi-denhaag.nl</a></p>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <h3>Menu</h3>
+                    <p><a href="index.html">Home</a></p>
+                    <p><a href="tarieven.html">Tarieven</a></p>
+                    <p><a href="contact.html">Contact</a></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center mt-4">
+                    <p>&copy; 2024 Budget Taxi Den Haag</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap and JS dependencies -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
